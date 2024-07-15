@@ -48,7 +48,7 @@
 #s345-1{
     width: 50%;
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
@@ -87,5 +87,20 @@ h3{
     
     #s234-2{
         width: 95%;
+    }
+    #s345{
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+    }
+    #s345-1{
+        width: 90%;
+    }
+    #s345-2{
+        width: 90%;
+        padding-top: 20px;
+    }
+    #s345-1>img{
+        width: 150px;
     }
 }
