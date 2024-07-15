@@ -1,0 +1,91 @@
+#s123{
+    width: 100%;
+    background-color: cornsilk;
+}
+
+#s123>img{
+    width: 100%;
+    filter: brightness(75%);
+    position: relative;
+}
+
+#s123>div{
+    color: black;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+#s234{
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    column-gap: 50px;
+    background-color: cornsilk;
+}
+
+#s234-1{
+    width: 50%;
+}
+
+#s234-2{
+    width: 50%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#s345{
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    column-gap: 50px;
+    background-color: cornsilk;
+}
+
+#s345-1{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+
+#s345-1>img{
+    width: 200px;
+}
+
+#s345-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    color: tomato;
+}
+
+#s345-2>ul{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    #s234{
+        width: 100%;
+        margin-top: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+    #s234-1{
+        width: 95%;
+    }
+    
+    #s234-2{
+        width: 95%;
+    }
+}
